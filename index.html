@@ -1,0 +1,365 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Sono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>Jobify - Job Seeking</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">Jobify</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimoni">Testimonials</a>
+            <a href="#blog">Blogs</a>
+            <a href="#">Log In</a>
+        </div>
+        <div class="menu-toggle">
+            <span clas="bar"></span>
+            <span clas="bar"></span>
+            <span clas="bar"></span>
+        </div>
+    </nav>
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span> DREAM JOB</span> <br> WITH JOBIFY
+        </h1>
+    </header>
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Search jobs">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option> Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Job Function</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employment Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>Kosovo</option>
+            </select>
+            <select class="filter-select" id="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>                
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fas fa-times-circle"></i>
+            </div>            
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>        
+        </div>
+    </div>
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/Tesla-Logo.png">
+                <div class="job-detail">
+                    <h4>Tesla</h4>
+                    <h3>Mechanical Engineer</h3>
+                    <p>As a Mechanical Engineer at Tesla, you'll design and test mechanical components for our electric vehicles. 
+                        Your innovative solutions will help us revolutionize the automotive industry and accelerate the world's transition to sustainable energy.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a"href="">HTML</a>
+                <a class="label-b"href="">CSS</a>
+                <a class="label-c"href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 46 minutes ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/ebay.png">
+                <div class="job-detail">
+                    <h4>Ebay</h4>
+                    <h3>Business Development</h3>
+                    <p>As a Business Development professional at eBay, you'll drive growth and revenue through strategic partnerships and initiatives, shaping the future of ecommerce.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a"href="">HTML</a>
+                <a class="label-b"href="">CSS</a>
+                <a class="label-c"href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 52 minutes ago.
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/TikTok.png">
+                <div class="job-detail">
+                    <h4>TikTok</h4>
+                    <h3>Digital Marketing</h3>
+                    <p>As a Digital Marketing professional at TikTok, you'll drive engagement and growth through innovative campaigns that elevate the TikTok brand.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a"href="">HTML</a>
+                <a class="label-b"href="">CSS</a>
+                <a class="label-c"href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 1 hour ago.
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/YouTube-Logo.png">
+                <div class="job-detail">
+                    <h4>YouTube</h4>
+                    <h3>UI UX Designer</h3>
+                    <p>As a UI/UX Designer at YouTube, you'll create engaging user experiences that enhance the YouTube platform.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a"href="">HTML</a>
+                <a class="label-b"href="">CSS</a>
+                <a class="label-c"href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 hours ago.
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="img/amazon.png">
+                <div class="job-detail">
+                    <h4>Amazon</h4>
+                    <h3>Software Engineer</h3>
+                    <p>As a Software Engineer at Amazon, you'll create innovative solutions for millions of customers, driving our success in ecommerce.</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a"href="">HTML</a>
+                <a class="label-b"href="">CSS</a>
+                <a class="label-c"href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 3 hours ago.
+            </div>
+        </div>
+        <button class="job-more">More Listings</button>
+    </section>
+
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">START YOUR NEW JOB WITH US</h1>
+            <p>Think big, dream big and achieve bigger with us! At Jobify, we believe in empowering job seekers by providing them with the necessary tools and resources to help them achieve their career goals.</p>
+        </div>
+        <button class="join-button">Join Now!</button>
+    </section>
+
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        <p>Browse job positions through the most known companies!</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="img/ebay.png">
+                <p>Ebay</p>
+                <button class="featured-button">2 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/YouTube-Logo.png">
+                <p>YouTube</p>
+                <button class="featured-button">4 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/google.png">
+                <p>Google</p>
+                <button class="featured-button">4 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/TikTok.png">
+                <p>TikTok</p>
+                <button class="featured-button">1 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/Tesla-Logo.png">
+                <p>Tesla</p>
+                <button class="featured-button">2 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/facebook.png">
+                <p>Facebook</p>
+                <button class="featured-button">4 jobs available!</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="img/apple.png">
+                <p>Apple</p>
+                <button class="featured-button">3 jobs available!</button>
+            </div>
+        </div>
+    </section>
+    <section clas="testimoni" id="testimoni">
+        <h1 class="sectiontitle">Testimonial</h1>
+        <p class="desc">Lets see what our clients say about us!</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Jobify helped me find the job of my dreams. Their platform was easy to use and their support team was always there to answer my questions. Highly recommend! </h3>
+                        <div class="testimoni-pic">
+                            <img src="img/profile1.jpg" >
+                            <p>Art Halimi</p>
+                            <span>Fullstack Developer</span>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>I was struggling to find a job that fit my skills and experience, but Jobify changed everything. With their vast network of job opportunities and expert guidance, I was able to find the perfect fit for my career goals.</h3>
+                        <div class="testimoni-pic">
+                            <img src="img/profile2.jpg" >
+                            <p>Argjend Mahmuti</p>
+                            <span>Data Analyst</span>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Jobify made my job search so much easier. Their platform was intuitive and their job listings were top-notch. Thanks to Jobify, I landed my dream job!</h3>
+                        <div class="testimoni-pic">
+                            <img src="img/profile3.jpg" >
+                            <p>Adnan Kastrati</p>
+                            <span>Backend Developer</span>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>I never knew finding a job could be so easy. Thanks to Jobify, I was able to explore new opportunities and connect with potential employers. I highly recommend Jobify to anyone looking for a new job.</h3>
+                        <div class="testimoni-pic">
+                            <img src="img/profile4.jpg" >
+                            <p>Andi Zeqiri</p>
+                            <span>Graphics Designer</span>
+                        </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <h3>Jobify helped me take my career to the next level. Their team of experts provided me with the best advice and support, and helped me find the perfect job for my skills and experience. Thank you, Jobify!</h3>
+                        <div class="testimoni-pic">
+                            <img src="img/profile5.jpg" >
+                            <p>Arti Salihu</p>
+                            <span>Backend Developer</span>
+                        </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <h1 class="section-title">Career Advice</h1>
+        <p>Learn more career tips from company recruiters!</p>
+        <div class="blog-wrapper">
+            <div class="blog-card">
+                <img class="blog-image" src="img/blog-1.jpg">
+                <div class="blog-detail">
+                    <span>4 Apr 2023</span>
+                    <h4>How to enjoy your work</h4>
+                    <p> Understanding how your work contributes to a larger purpose can give you a sense of fulfillment and make your work more enjoyable.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="img/blog-2.jpg">
+                <div class="blog-detail">
+                    <span>8 Apr 2023</span>
+                    <h4>10 Tips to make your job easier.</h4>
+                    <p>Plan and prioritize your tasks: Identify your most important tasks and plan your day accordingly to help manage your workload.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="img/blog-3.jpg">
+                <div class="blog-detail">
+                    <span>9 Apr 2023</span>
+                    <h4>Tips on how to ace your next job interview.</h4>
+                    <p>Research the company: Research the company's history, mission, and values, as well as the job requirements and responsibilities to prepare for the interview.</p>
+                    <hr class="divider">
+                    <a href="#" class="blog-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <div class="footer-wrapper">
+        <h3>JOBIFY</h3>
+        <p>Together, let's build your dream career. At Jobify, we're here to help you find the job that aligns with your passions, interests and skillset.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <h4>Explore</h4>
+        <a href="tos.html">Terms of Services</a>
+        <a href="#">Podcast</a>
+    </div>
+    <div class="footer-wrapper">
+        <h4>About</h4>
+        <a href="faq.html">FAQ</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="footer-wrapper">
+        <h4>Support</h4>
+        <a href="#">Customer Service</a>
+        <a href="#">Trust & Safety</a>
+        <a href="#">Partnership</a>
+    </div>
+    <div class="footer-wrapper">
+        <h4>Community</h4>
+        <a href="#">Community</a>
+        <a href="#">Invite a Friend</a>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
